@@ -8,3 +8,5 @@ dotnet ef database update
 video: https://www.youtube.com/watch?v=EXIzgR-JSwg
 
 23:20
+
+estudar cors / dependency injection
