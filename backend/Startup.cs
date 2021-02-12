@@ -61,6 +61,8 @@ namespace backend
             {
                 endpoints.MapControllers();
             });
+
+            InitialDatabaseData.Initialize(app);
         }
     }
 }

@@ -27,11 +27,6 @@ namespace backend.Controllers
             _logger = logger;
         }
 
-        // public PersonController(ILogger<PersonController> logger)
-        // {
-        //     _logger = logger;
-        // }
-
         [HttpGet]
         public IEnumerable<Person> Get()
         {
